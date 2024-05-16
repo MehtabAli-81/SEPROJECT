@@ -1,11 +1,11 @@
 public class Account {
     private String accountHolderName;
-    private String accountNumber;
+    private String AccountHolderNumber;
     private double balance;
 
-    public Account(String accountHolderName, String accountNumber, double balance) {
+    public Account(String accountHolderName, String AccountHolderNumber, double balance) {
         this.accountHolderName = accountHolderName;
-        this.accountNumber = accountNumber;
+        this.AccountHolderNumber = AccountHolderNumber;
         this.balance = balance;
     }
 
