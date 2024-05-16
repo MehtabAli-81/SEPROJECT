@@ -10,7 +10,7 @@ public class ATM {
 
     public void run() {
         Scanner scanner = new Scanner(System.in);
-        int choice;
+        int UserInput;
 
         do {
             System.out.println("ATM Menu:");
@@ -19,9 +19,9 @@ public class ATM {
             System.out.println("3. Withdraw");
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
-            choice = scanner.nextInt();
+            UserInput = scanner.nextInt();
 
-            switch (choice) {
+            switch (UserInput) {
                 case 1:
                     System.out.println("Current Balance: $" + account.getBalance());
                     break;
@@ -46,7 +46,7 @@ public class ATM {
                 default:
                     System.out.println("Invalid choice. Please try again.");
             }
-        } while (choice != 4);
+        } while (UserInput != 4);
 
         scanner.close();
     }
