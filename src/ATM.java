@@ -13,12 +13,12 @@ public class ATM {
         int UserInput;
 
         do {
-            System.out.println("ATM Menu:");
-            System.out.println("1. Check Balance");
-            System.out.println("2. Deposit");
+            System.out.println("Menu of ATM:");
+            System.out.println("1. Check your Balance");
+            System.out.println("2.  Deposit");
             System.out.println("3. Withdraw");
             System.out.println("4. Exit");
-            System.out.print("Enter your choice: ");
+            System.out.print("Enter your prefrence: ");
             UserInput = scanner.nextInt();
 
             switch (UserInput) {
