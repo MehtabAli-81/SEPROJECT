@@ -23,7 +23,7 @@ public class ATM {
 
             switch (UserInput) {
                 case 1:
-                    System.out.println("Current Balance: $" + account.getBalance());
+                    System.out.println("Current Balance: Rs" + account.getBalance());
                     break;
                 case 2:
                     System.out.print("Enter amount to deposit: ");
