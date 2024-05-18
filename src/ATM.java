@@ -5,7 +5,7 @@ public class ATM {
 
     public ATM() {
         // Initialize the account
-        this.account = new Account("John Doe", "123456", 1000);
+        this.account = new Account("Syeda Anabia", "687681146", 1000);
     }
 
     public void run() {
@@ -13,6 +13,7 @@ public class ATM {
         int UserInput;
 
         do {
+            System.out.println("WELLCOME TO AUTOMATED TAILER MACHINE");
             System.out.println("Menu of ATM:");
             System.out.println("1. Check your Balance");
             System.out.println("2.  Deposit");
