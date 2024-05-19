@@ -1,12 +1,13 @@
-<project name="SEPROJECT" default="run">
-    <target name="compile">
-        <mkdir dir="build"/>
-        <javac srcdir="src" destdir="build"/>
+<project name="Hello World" default="compile" basedir=".">
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="build"/>
+
+    <target name="init">
+        <mkdir dir="${build.dir}"/>
     </target>
-    <target name="run" depends="compile">
-        <java classname="Main" classpath="build"/>
-    </target>
-    <target name="clean">
-        <delete dir="build"/>
+
+    <target name="compile" depends="init">
+        <javac srcdir="${src.dir}" destdir="${build.dir}"/>
     </target>
 </project>
+
