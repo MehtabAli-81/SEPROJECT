@@ -5,7 +5,7 @@ public class ATM {
 
     public ATM() {
         // Initialize the account
-        this.account = new Account("Syeda Anabia", "687681146", 1000);
+        this.account = new Account("Maryam Ali", "76", 1000);
     }
 
     public void run() {
@@ -14,12 +14,12 @@ public class ATM {
 
         do {
             System.out.println("WELLCOME TO AUTOMATED TAILER MACHINE");
-            System.out.println("Menu of ATM:");
-            System.out.println("1. Check your Balance");
-            System.out.println("2.  Deposit");
-            System.out.println("3. Withdraw");
-            System.out.println("4. Exit");
-            System.out.print("Enter your prefrence: ");
+            System.out.println("MENU OF ATM:");
+            System.out.println("1. Check your BALANCE");
+            System.out.println("2.  DEPOSIT");
+            System.out.println("3. CASHOUT");
+            System.out.println("4. QUIT");
+            System.out.print("Enter your CHOICE: ");
             UserInput = scanner.nextInt();
 
             switch (UserInput) {
